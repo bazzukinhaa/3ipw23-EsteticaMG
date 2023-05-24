@@ -23,12 +23,12 @@ header nav {
 
 .banner {
   position: relative;
+  top: 120px;
   height: 100px;
 }
 
 .banner > div {
   position: absolute;
-  top: 120px;
   width: 100%;
   height: 100px;
   background-color: black;
@@ -96,7 +96,7 @@ nav ul li a:hover {
   margin-top: 2%;
   margin-bottom: 2%;
   padding: 10px;
-  width: 50%;
+  width: calc(48% - 33px);
   float: left;
   text-align: center;
   line-height: 40px;
@@ -113,7 +113,8 @@ nav ul li a:hover {
 .sobre img {
   padding-left: 3%;
   display: inline-block;
-  height: 100%;
+  max-width: 50%;
+  height: auto;
 }
 .servicos {
   background: #ffc905;
