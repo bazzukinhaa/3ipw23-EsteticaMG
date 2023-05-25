@@ -96,7 +96,8 @@ nav ul li a:hover {
   margin-top: 2%;
   margin-bottom: 2%;
   padding: 10px;
-  width: calc(48% - 33px);
+  margin-left: calc(10% - 40px);
+  width: calc(48% - 80px);
   float: left;
   text-align: center;
   line-height: 40px;
@@ -111,10 +112,11 @@ nav ul li a:hover {
   font-family: "Itim", cursive;
 }
 .sobre img {
-  padding-left: 3%;
+  margin-top: 2%;
   display: inline-block;
-  max-width: 50%;
+  max-width: calc(48% - 100px);
   height: auto;
+  margin-left: calc(8% - 40px);
 }
 .servicos {
   background: #ffc905;
