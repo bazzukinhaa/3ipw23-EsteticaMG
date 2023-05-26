@@ -93,18 +93,19 @@ nav ul li a:hover {
   width: 100%;
 }
 .texto {
-  margin-top: 2%;
+  margin-top: 3%;
   margin-bottom: 2%;
   padding: 10px;
   margin-left: calc(10% - 40px);
-  width: calc(48% - 80px);
+  width: calc(48% - 190px);
   float: left;
   text-align: center;
   line-height: 40px;
-  font-size: 28px;
+  font-weight: 500;
+  font-size: calc(28px- 20px);
 }
 .sobre h2 {
-  font-size: 45px;
+  font-size: calc(280% - 5px);
   font-weight: 900;
   text-align: center;
   margin-top: -20px;
@@ -116,7 +117,7 @@ nav ul li a:hover {
   display: inline-block;
   max-width: calc(48% - 100px);
   height: auto;
-  margin-left: calc(8% - 40px);
+  margin-left: calc(15% - 40px);
 }
 .servicos {
   background: #ffc905;
