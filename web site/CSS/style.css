@@ -113,15 +113,19 @@ nav ul li a:hover {
   font-family: "Itim", cursive;
 }
 .sobre img {
-  margin-top: 2%;
+  margin-top: 0.7%;
+  margin-bottom: 2%;
   display: inline-block;
   max-width: calc(48% - 100px);
   height: auto;
   margin-left: calc(15% - 40px);
 }
 .servicos {
-  background: #ffc905;
+  background: #fd32329e;
   padding: 70px 0;
+  border: 6px;
+  border-style: solid;
+  border-color: #000000;
 }
 .servico {
   display: inline-block;
@@ -132,17 +136,15 @@ nav ul li a:hover {
   border: 2px solid #ffff;
   width: 100%;
 }
-.titulo,
+
 .servicos h2 {
-  color: #fff;
-  font-size: 30px;
+  color: #000;
+  font-family: "Itim", cursive;
+  font-size: 5px;
+  text-align: center;
+  margin-bottom: 20px;
   text-transform: uppercase;
   font-weight: 900;
-  text-align: center;
-}
-.servicos h2 {
-  font-size: 40px;
-  margin-bottom: 20px;
 }
 .depoimentos h2 {
   color: #000;
@@ -178,4 +180,13 @@ footer {
 }
 .item h2 {
   font-size: 40px;
+}
+
+@media (max-width:1000px) {
+ .aviso{
+  display: block;
+ } 
+ body{
+  display: none;
+ }
 }
