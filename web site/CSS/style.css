@@ -174,7 +174,7 @@ nav ul li a:hover {
   margin-right: calc(5% - 55px);
 }
 .depoimentos h2 {
-  color: #000;
+  color: red;
 }
 .item {
   display: inline-block;
