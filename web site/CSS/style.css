@@ -224,9 +224,17 @@ nav ul li a:hover {
 footer {
   background-color: rgba(9, 9, 9, 0.95);
   color: #fff;
-  padding: 50px;
+  padding: 40px;
+  padding-bottom: 45px;
+  height: 290px;
 }
-
+.itemf h2 {
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+}
 footer .bolinha1 {
   float: left;
   height: 23px;
@@ -257,9 +265,6 @@ footer .bolinha4 {
   width: 23px;
   border-radius: 100px;
   background-color: #d9d9d9;
-}
-.item h2 {
-  font-size: 40px;
 }
 
 @media (max-width: 1120px) {
