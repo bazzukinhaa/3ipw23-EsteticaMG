@@ -221,9 +221,41 @@ nav ul li a:hover {
 }
 
 footer {
-  background-color: #393f44;
+  background-color: rgba(9, 9, 9, 0.95);
   color: #fff;
   padding: 50px;
+}
+
+footer .bolinha1 {
+  float: left;
+  height: 23px;
+  width: 23px;
+  border-radius: 100px;
+  background-color: #d9d9d9;
+}
+
+footer .bolinha2 {
+  float: right;
+  height: 23px;
+  width: 23px;
+  border-radius: 100px;
+  background-color: #d9d9d9;
+}
+
+footer .bolinha3 {
+  float: right;
+  height: 23px;
+  width: 23px;
+  border-radius: 100px;
+  background-color: #d9d9d9;
+}
+
+footer .bolinha4 {
+  float: left;
+  height: 23px;
+  width: 23px;
+  border-radius: 100px;
+  background-color: #d9d9d9;
 }
 .item h2 {
   font-size: 40px;
