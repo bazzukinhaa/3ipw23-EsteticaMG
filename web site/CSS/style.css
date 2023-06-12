@@ -30,8 +30,9 @@ header nav {
   height: 100px;
 }
 
-.banner > div {
-  position: absolute;
+.banner > img {
+  position: relative;
+  top: -150px;
   width: 100%;
   height: 100px;
   background-color: black;
@@ -263,9 +264,31 @@ footer .bolinha4 {
 
 @media (max-width: 1120px) {
   .aviso {
-    display: block;
+    display: block !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    box-sizing: border-box;
   }
-  body {
+
+  .aviso h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .aviso p {
+    font-size: 18px;
+  }
+}
+@media (min-width: 1121px) {
+  .aviso {
     display: none;
   }
 }
