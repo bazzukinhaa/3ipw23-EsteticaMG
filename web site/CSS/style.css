@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kings&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web:ital@1&display=swap");
 body {
   background-color: #f5f5f5;
   font-size: 20px;
@@ -226,14 +227,119 @@ footer {
   color: #fff;
   padding: 40px;
   padding-bottom: 45px;
-  height: 290px;
+  height: 330px;
+}
+footer div {
+  display: inline-block;
+}
+.itemf {
+  float: left;
+  width: 30%;
+}
+
+.itemg {
+  margin: 0 auto;
+  width: 40%;
+}
+
+.itemh {
+  float: right;
+  width: 30%;
 }
 .itemf h2 {
+  font-size: 30px;
+  font-weight: 900;
+  text-align: left;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+  margin-left: 35%;
+  margin-bottom: 10%;
+}
+.itemg h2 {
   font-size: 30px;
   font-weight: 900;
   text-align: center;
   text-transform: uppercase;
   font-family: "Inter", sans-serif;
+  margin-bottom: 10%;
+}
+.itemh h2 {
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 15%;
+}
+.itemg form {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.itemf p {
+  font-size: 20px;
+  text-align: left;
+  font-family: "Istok Web", sans-serif;
+  width: 220px;
+  margin-left: 25%;
+  margin-bottom: 2%;
+  line-height: 30px;
+}
+
+.itemh ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 30px;
+  line-height: 50px;
+}
+.itemh > ul {
+  text-align: right;
+  margin-right: 25%;
+}
+.input-estilizado {
+  position: relative;
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+  border-bottom: 1px solid gray;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.input-estilizado::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: blue;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.input-estilizado:focus::before {
+  transform: scaleX(1);
+}
+
+.botao-estilizado {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  border: 2px solid green;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.botao-estilizado:hover {
+  background-color: green;
+  color: white;
 }
 footer .bolinha1 {
   float: left;
