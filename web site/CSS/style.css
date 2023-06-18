@@ -174,6 +174,14 @@ nav ul li a:hover {
   text-align: center;
   line-height: 160%;
   font-size: 110%;
+  height: 354px;
+}
+.texto p {
+  text-align: center;
+  height: 284px;
+  width: 100%;
+  overflow: auto; /* Adiciona a propriedade overflow para permitir que o texto role dentro do div */
+  word-wrap: break-word; /* Adiciona a propriedade word-wrap para que as palavras sejam quebradas em várias linhas se necessário */
 }
 .sobre h2 {
   font-size: calc(280% - 5px);
@@ -659,4 +667,113 @@ footer .bolinha4 {
 }
 a {
   text-decoration: none;
+}
+/*turbo*/
+.bannergg {
+  position: relative;
+  top: 120px;
+  height: 160px;
+}
+
+.bannergg > img {
+  position: relative;
+  top: -150px;
+  width: 100%;
+  height: 145px;
+  background-color: black;
+}
+.sidebarrr {
+  float: left;
+  display: inline-block;
+  margin-left: 10%;
+  margin-right: 20px;
+  height: 360px;
+  width: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sidebarrr img {
+  display: inline-block;
+  height: 100%;
+  width: calc(100% - 55px);
+  margin-right: 23%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.turbo {
+  display: flex;
+  height: 90%;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 15%;
+}
+.turbor {
+  display: flex;
+  height: 90%;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.turbor p {
+  font-size: 30px;
+  margin: 20px;
+  font-weight: 900;
+  text-align: center;
+  justify-content: center;
+  margin-top: 5%;
+  align-items: center;
+  font-family: "Itim", cursive;
+  line-height: 50px;
+  height: 330px;
+  overflow: auto; /* Adiciona a propriedade overflow para permitir que o texto role dentro do div */
+  word-wrap: break-word; /* Adiciona a propriedade word-wrap para que as palavras sejam quebradas em várias linhas se necessário */
+}
+.turbo p {
+  font-size: 30px;
+  margin: 20px;
+  font-weight: 900;
+  text-align: center;
+  justify-content: center;
+  margin-top: 5%;
+  align-items: center;
+  font-family: "Itim", cursive;
+  line-height: 50px;
+  height: 330px;
+  overflow: auto; /* Adiciona a propriedade overflow para permitir que o texto role dentro do div */
+  word-wrap: break-word; /* Adiciona a propriedade word-wrap para que as palavras sejam quebradas em várias linhas se necessário */
+}
+.quadrados22 {
+  display: inline-block;
+  text-align: center;
+  background: #d9d9d9;
+  border: 3px;
+  border-style: solid;
+  border-color: #000000;
+  height: 360px;
+  width: 65%;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(8% - 55px);
+  overflow: hidden; /* Adiciona a propriedade overflow para ocultar o conteúdo que exceder o tamanho do div */
+}
+
+.quadrados23 {
+  display: inline-block;
+  text-align: center;
+  background: #d9d9d9;
+  border: 3px;
+  border-style: solid;
+  border-color: #000000;
+  height: 360px;
+  width: 65%;
+  justify-content: center;
+  align-items: center;
+  margin-right: calc(8% - 55px);
+  overflow: hidden; /* Adiciona a propriedade overflow para ocultar o conteúdo que exceder o tamanho do div */
 }
