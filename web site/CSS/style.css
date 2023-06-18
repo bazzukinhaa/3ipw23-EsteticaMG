@@ -107,15 +107,15 @@ nav ul li a:hover {
   width: calc(48% - 190px);
   float: left;
   text-align: center;
-  line-height: 40px;
-  font-size: calc(28px- 20px);
+  line-height: 160%;
+  font-size: 110%;
 }
 .sobre h2 {
   font-size: calc(280% - 5px);
   font-weight: 900;
   text-align: center;
   margin-top: -20px;
-  margin-bottom: 25px;
+  margin-bottom: 8%;
   font-family: "Itim", cursive;
 }
 .sobre img {
