@@ -4,6 +4,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Istok+Web:ital@1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Jockey+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inria+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Grenze:wght@200&display=swap");
 body {
   background-color: #f5f5f5;
   font-size: 20px;
@@ -775,4 +777,169 @@ a {
   align-items: center;
   margin-right: calc(8% - 55px);
   overflow: hidden; /* Adiciona a propriedade overflow para ocultar o conteúdo que exceder o tamanho do div */
+}
+
+/*servicos*/
+.servicosct {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5%;
+}
+.contentct {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main-containerct {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerct {
+  width: 503px;
+  height: 202px;
+  background-color: rgba(109, 115, 255, 0.75);
+  position: relative;
+  border: 5px solid black;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.containerct p {
+  color: white;
+  font-family: "Inria Serif", serif;
+  font-size: 55px;
+  text-shadow: 1px 1px 1px black, -1px -1px 1px black, 1px -1px 1px black,
+    -1px 1px 1px black; /* Coordenadas e cor da sombra */
+  -webkit-text-stroke: 1px black; /* Para navegadores Webkit, como o Chrome e o Safari */
+}
+.containerct:last-child .cornerct {
+  right: -20%;
+}
+
+.containerct:last-child {
+  margin-left: auto;
+}
+
+.containerct:last-child .inner-divct {
+  margin-left: -10%;
+}
+
+.cornerct {
+  width: 192px;
+  height: 202px;
+  background-color: white;
+  border-radius: 100%;
+  position: absolute;
+  top: -5px;
+  right: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+}
+
+.cornerct img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: auto;
+}
+
+.inner-divct {
+  width: 361px;
+  margin-left: 10%;
+  text-align: center;
+}
+.contateee {
+  height: 312px;
+  width: 95%;
+  background-color: #0066ff;
+  border-radius: 100px;
+  border: 5px solid black;
+  margin-bottom: 5%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.contain {
+  height: 312px;
+  width: 100%;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+}
+.quadradosct {
+  height: 280px;
+  width: 30%;
+  margin: 10px;
+  border-radius: 59px;
+  background-color: #000;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.entra-em-contato {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  position: relative;
+}
+
+.entra-em-contato img {
+  height: 180px;
+  display: none;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.entra-em-contato:hover img {
+  display: block;
+}
+.entra-em-contato:hover p {
+  opacity: 0;
+}
+.entra-em-contato form {
+  height: 220px;
+  width: 340px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.entra-em-contato h2 {
+  color: white;
+  width: 332px;
+  height: 31px;
+  font-size: 30px;
+  font-family: "Inter", sans-serif;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.entra-em-contato p {
+  color: white;
+  width: 90%;
+  font-size: 28px;
+  font-family: "Grenze", serif;
+  margin-top: 35px;
+}
+a {
+  transition: box-shadow 0.3s ease;
+}
+
+a:hover {
+  opacity: 70%;
 }
