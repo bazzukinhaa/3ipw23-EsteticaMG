@@ -614,6 +614,7 @@ footer .bolinha4 {
   background-color: rgba(253, 50, 50, 0.7);
   position: relative;
   border: 5px solid black;
+  border-left: none; /* Adicionando esta linha */
   margin-bottom: 100px;
   display: flex;
   justify-content: center;
@@ -626,6 +627,8 @@ footer .bolinha4 {
 
 .container:last-child {
   margin-left: auto;
+  border-left: 5px solid black;
+  border-right: none; /* Adicionando esta linha */
 }
 
 .container:last-child .inner-div {
@@ -806,6 +809,7 @@ a {
   border: 5px solid black;
   margin-bottom: 100px;
   display: flex;
+  border-left: none; /* Adicionando esta linha */
   justify-content: center;
   align-items: center;
 }
@@ -823,6 +827,8 @@ a {
 
 .containerct:last-child {
   margin-left: auto;
+  border-left: 5px solid black;
+  border-right: none; /* Adicionando esta linha */
 }
 
 .containerct:last-child .inner-divct {
@@ -864,28 +870,32 @@ a {
   margin-bottom: 5%;
   justify-content: center;
   align-items: center;
+  max-width: 1579px;
   text-align: center;
 }
 .contain {
   height: 312px;
   width: 100%;
-  display: inline-block;
+  max-width: 1579px;
+  display: flex; /* Adicione essa linha */
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: 10px;
 }
 .quadradosct {
+  flex: 1 0 30%; /* Adicione essa linha para controlar o dimensionamento */
   height: 280px;
-  width: 30%;
   margin: 10px;
+  max-width: 450px;
   border-radius: 59px;
   background-color: #000;
-  display: inline-block;
+  display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
+
 .entra-em-contato {
   display: flex;
   flex-direction: column;
@@ -934,7 +944,10 @@ a {
   width: 90%;
   font-size: 28px;
   font-family: "Grenze", serif;
-  margin-top: 35px;
+  margin-top: 25px;
+}
+.margin {
+  margin-bottom: 10px;
 }
 a {
   transition: box-shadow 0.3s ease;
